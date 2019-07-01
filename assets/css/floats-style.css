@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+	background-image: url(background1.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.menu{
+	height: 100px;
+	background-color: #B2D6FF;
+	background-image: url(header.jpeg);
+	background-position: center;
+
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+.sidebar {
+	height: 500px;
+	width: 200px;
+	/*background-color: #F09A9D;*/
+	float: left;
+	background-image: url(sidebar.jpg);
+	color: white;
+}
+
+.button {
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	background-color: #7e90a3;
+}	
+
+
+.content {
+	height: 500px;
+	width: 100%;
+	background-color: #F5CF8E;
+	/*float: left;*/
+	background-image: url(blue-sky-clouds.jpg);
+	color: #f2f2f2;
+	padding: 20px;
+}
+
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+/*.main-content {
+	padding: 5px;;
+	overflow: hidden;
+
+}*/
+
+.column-image {
+	width: 60px;
+	height: 60px;
+	border-radius: 40px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	/*border: 1px solid red;*/
+	/*background-color: #D6E9FE;*/
+	background-image: url(footer.jpg);
+}
+
+.clear::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.clear {
+	overflow: auto;
+}
+
+.column1 {
+	background-color: #446173;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+
+.column2 {
+	background-color: #ff6666;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.username {
+	color: #f2f2f2;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(char-pikachu.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+	color: #f2f2f2;
+}
